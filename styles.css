@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'SAO';
-    src: url(../frontend/fonts/SAOUITT-Regular.ttf) format('truetype');
+    src: url(../frontend/SAOUITT-Regular.ttf) format('truetype');
 }
 
 body{
     margin: 0;
     background: pink;
     text-align: center;
-    font-family: 'SAO', sans-serif;
+    font-family: 'SAO';
 }
