@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'SAO';
-    src: url(../fonts/SAOUITT-Regular.ttf);
+    src: url(../frontend/fonts/SAOUITT-Regular.ttf) format('truetype');
 }
 
 body{
