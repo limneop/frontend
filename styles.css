@@ -5,7 +5,74 @@
 
 body{
     margin: 0;
-    background: pink;
-    text-align: center;
+    background-image: url(https://2.bp.blogspot.com/-ZJN-k674jc8/WAwkI3QomfI/AAAAAAAAM6M/UAo5TjLQGQc09BezGv7hOIt4sJUag_I5gCLcB/s1600/Programmer%2BBackgrounds%2B8.jpg);
+    background-size: cover;
     font-family: 'SAO', sans-serif;
+}
+
+h1, h2, h3{
+    color: #ddd;
+    font-size: 45px;
+    text-align: center;
+}
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: 0A0A0A;
+    padding-right: 150px;
+  }
+  
+  li {
+    float: right;
+    color: 999999;
+    text-align: center;
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 70px;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ddd;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+li.nick {
+    float: left;
+    font-size: 24.5px;
 }
