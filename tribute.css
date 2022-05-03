@@ -117,3 +117,13 @@ width: 100%;
     width: 100%;
   }
 }
+.grid {
+  display: table;
+  border-spacing: 5px
+}
+.row1 {
+  display: table-row
+}
+.cell {
+  display: table-cell;
+}
