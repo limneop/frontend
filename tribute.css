@@ -2,19 +2,6 @@
     font-family: 'SAO';
     src: url("../frontend/SAOUITT-Regular.ttf");
 }
-
-body{
-    margin: 0;
-    background-image: url(https://2.bp.blogspot.com/-ZJN-k674jc8/WAwkI3QomfI/AAAAAAAAM6M/UAo5TjLQGQc09BezGv7hOIt4sJUag_I5gCLcB/s1600/Programmer%2BBackgrounds%2B8.jpg);
-    background-size: cover;
-    font-family: 'SAO', sans-serif;
-}
-
-h1, h2, h3{
-    color: #ddd;
-    font-size: 45px;
-    text-align: center;
-}
 ul {
     list-style-type: none;
     margin: 0;
@@ -68,4 +55,65 @@ li.dropdown {
 li.nick {
     float: left;
     font-size: 24.5px;
+}
+
+body{
+  margin: 0;
+  background-image: url();
+  background-color: F8F8F8;
+  background-size: cover;
+  font-family: 'SAO', sans-serif;
+}
+h1{
+  color: black;
+  font-size: 45px;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+h3.title{
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 5%;
+  font-size: 19px;
+}
+.img-caption
+{
+    width: 400px;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image
+{
+display: block;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+.image1{
+  display: block;
+margin-left: auto;
+margin-right: auto;
+width: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
