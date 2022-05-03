@@ -56,3 +56,9 @@ li.nick {
     float: left;
     font-size: 24.5px;
 }
+body{
+    margin: 0;
+    background-image: url();
+    background-size: cover;
+    font-family: 'SAO', sans-serif;
+  }
